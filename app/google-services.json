@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "283433073326",
+    "project_id": "adminmunchmate",
+    "storage_bucket": "adminmunchmate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283433073326:android:0d74e279ac4f4cd3becb3f",
+        "android_client_info": {
+          "package_name": "com.example.adminmunchmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA02-Tcqwrxz7vHZkyIJ2LFF-XqlPfWYbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
