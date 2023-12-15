@@ -46,7 +46,7 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/enterFoodName"
                 android:layout_width="0dp"
                 android:layout_height="57dp"
                 android:layout_marginStart="8dp"
@@ -62,7 +62,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/enterFoodPrice"
                 android:layout_width="0dp"
                 android:layout_height="57dp"
                 android:layout_marginStart="8dp"
@@ -78,7 +78,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editText3"
+                app:layout_constraintTop_toBottomOf="@+id/enterFoodName"
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
@@ -97,7 +97,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editText4" />
+                app:layout_constraintTop_toBottomOf="@+id/enterFoodPrice" />
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView5"
@@ -109,6 +109,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/selectImage">
 
                 <ImageView
+                    android:layout_marginTop="16dp"
                     android:id="@+id/selectedImage"
                     android:layout_width="175dp"
                     android:layout_height="110dp"
@@ -138,7 +139,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:background="@color/white"
-                android:text="lorem23"
+                android:hint="Add the Description Here"
+                android:paddingStart="16dp"
                 android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.043"
@@ -154,7 +156,7 @@
                 android:layout_marginEnd="8dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="15dp"
-                android:text="Short Description"
+                android:text="Ingredient"
                 android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -164,11 +166,11 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <EditText
-                android:id="@+id/ingredint"
+                android:id="@+id/ingredient"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="dummy text"
+                android:hint="Add the Ingredient Here"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -181,16 +183,19 @@
                 android:layout_width="157dp"
                 android:layout_height="57dp"
                 android:layout_marginTop="16dp"
-                android:background="@drawable/greenbuttonshape"
-                android:textAllCaps="false"
-                android:textSize="20sp"
                 android:layout_marginBottom="32dp"
-
+                android:background="@drawable/greenbuttonshape"
+                android:gravity="center"
+                android:text="Add item"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="0.465"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/ingredint" />
+                app:layout_constraintTop_toBottomOf="@+id/ingredient"
+                app:layout_constraintVertical_bias="1.0" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

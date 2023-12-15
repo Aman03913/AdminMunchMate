@@ -41,7 +41,7 @@
        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
    <EditText
-       android:id="@+id/editTextText"
+       android:id="@+id/loginemail"
        android:layout_width="match_parent"
        android:layout_height="57dp"
        android:layout_marginLeft="20dp"
@@ -63,10 +63,11 @@
 
 
    <EditText
-       android:id="@+id/editTextPassword"
+       android:id="@+id/loginPassword"
        android:layout_width="match_parent"
        android:layout_height="57dp"
        android:layout_marginLeft="20dp"
+       android:inputType="textPassword"
        android:layout_marginTop="12dp"
        android:layout_marginRight="20dp"
        android:background="@drawable/edittextshape"
@@ -80,7 +81,7 @@
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintHorizontal_bias="0.125"
        app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toBottomOf="@+id/editTextText"
+       app:layout_constraintTop_toBottomOf="@+id/loginemail"
        app:layout_constraintVertical_bias="0.0" />
 
    <TextView
@@ -90,12 +91,11 @@
        android:text="or\nContinue With"
        android:textAlignment="center"
        android:textSize="20sp"
-
        app:layout_constraintBottom_toTopOf="@+id/LoginButton"
-       app:layout_constraintEnd_toEndOf="@+id/editTextPassword"
+       app:layout_constraintEnd_toEndOf="@+id/loginPassword"
        app:layout_constraintHorizontal_bias="0.501"
-       app:layout_constraintStart_toStartOf="@+id/editTextPassword"
-       app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
+       app:layout_constraintStart_toStartOf="@+id/loginPassword"
+       app:layout_constraintTop_toBottomOf="@+id/loginPassword"
        app:layout_constraintVertical_bias="0.115" />
 
    <androidx.appcompat.widget.AppCompatButton
@@ -138,7 +138,7 @@
        app:layout_constraintEnd_toEndOf="@+id/FacebookButton"
        app:layout_constraintHorizontal_bias="0.505"
        app:layout_constraintStart_toStartOf="@+id/GoogleButton"
-       app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
+       app:layout_constraintTop_toBottomOf="@+id/loginPassword"
        app:layout_constraintVertical_bias="0.698" />
 
    <TextView
